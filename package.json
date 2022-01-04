@@ -1,0 +1,19 @@
+{
+  "name": "assert",
+  "version": "0.0.0",
+  "description": "A TypeScript type guard to asserts that the given value is not undefined nor null",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvilers/assert.git"
+  },
+  "keywords": [
+    "typescript",
+    "typescript-library"
+  ],
+  "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvilers/assert/issues"
+  },
+  "homepage": "https://github.com/fvilers/assert#readme"
+}
