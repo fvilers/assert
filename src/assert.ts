@@ -5,7 +5,7 @@ class AssertionError extends Error {
   }
 }
 
-function assert(value: unknown, message?: string): asserts value {
+export function assert(value: unknown, message?: string): asserts value {
   if (value === undefined) {
     throw new AssertionError(message || "`value` is undefined");
   }

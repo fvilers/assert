@@ -1,4 +1,5 @@
-import assert from "../src/assert";
+import { expect, test } from "vitest";
+import assert from "../src/assert.js";
 
 test("asserts `undefined`", () => {
   expect(() => assert(undefined)).toThrowError();
